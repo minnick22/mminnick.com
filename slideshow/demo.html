@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slideshow</title>
+        <link rel="stylesheet" href="res/css/folder_slideshow.css" />
+        <script src = "res/js/jquery.min.js"></script>
+        <script src = "res/js/folder_slideshow.js"></script>
+    </head>
+    <body>
+        <img class="full-slideshow" id = "main_slides" src = "res/images/14.JPG"/>
+    </body>
+    <script>
+        $(document).ready(function() {
+            doSlideshow($("#main_slides"), "http://mminnick.com/slideshow/res/images/", 10, 750);
+        });
+    </script>
+</html>
